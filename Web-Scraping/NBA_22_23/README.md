@@ -1,6 +1,6 @@
 # WEB SCRAPING DA NBA TEMPORADA 2022-2023
 
-Notebook: https://tinyurl.com/j4u8nn67
+Notebook: [NBA 22_23](https://tinyurl.com/bdz6mzv4)
 
 ## Objetivo
 O objetivo do projeto é demonstrar a técnica de web scraping (raspagem) que apliquei no site https://www.basketball-reference.com/, o qual possui dados estatísticos detalhados sobre a NBA (National Basketball Association), e em seguida, realizar uma análise breve utilizando os dados extraídos.
