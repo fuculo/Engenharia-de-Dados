@@ -1,6 +1,6 @@
 # Extração, Armazenamento e Análise com Web Scraping, Banco de Dados e Linguagem SQL
 
-Notebook: https://tinyurl.com/j4u8nn67
+Notebook: [Python e SQL](https://tinyurl.com/47cs56hf)
 
 ## Objetivo
 O objetivo final deste projeto é a análise dos dados extraídos e não o armazenamento prolongado dos mesmos.
