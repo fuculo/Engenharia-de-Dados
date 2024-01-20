@@ -28,13 +28,9 @@ RUN mkdir -p ${HADOOP_HOME} && mkdir -p ${SPARK_HOME}
 WORKDIR ${SPARK_HOME}
 
 # Download do arquivo de binários do Spark
-RUN curl https://dlcdn.apache.org/spark/spark-3.4.1/spark-3.4.1-bin-hadoop3.tgz -o spark-3.4.1-bin-hadoop3.tgz \
+RUN curl https://archive.apache.org/dist/spark/spark-3.4.1/spark-3.4.1-bin-hadoop3.tgz -o spark-3.4.1-bin-hadoop3.tgz \
  && tar xvzf spark-3.4.1-bin-hadoop3.tgz --directory /opt/spark --strip-components 1 \
  && rm -rf spark-3.4.1-bin-hadoop3.tgz
-
- # URL para acessar o archive do 3.4.1
- # https://archive.apache.org/dist/spark/spark-3.4.1/
-
 
 # Prepara o ambiente com PySpark
 FROM spark-base as pyspark
@@ -69,5 +65,4 @@ RUN chmod +x entrypoint.sh
 
 # Executa o script quando inicializar um container
 ENTRYPOINT ["./entrypoint.sh"]
-
 
