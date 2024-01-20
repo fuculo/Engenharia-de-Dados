@@ -21,7 +21,7 @@ Utilizando a orquestração de containers Docker, as aplicações do Spark foram
 
 O seguinte dockerfile foi configurado para atender as demandas do projeto. Nele temos a instalção de um Sistema Operacional e seus pacotes, juntamente com variáveis de ambiente, arquivos binários do Spark, preparação do ambiente Python e ajuste de permissões e privilégios.
 
-	- dockerfile
+[dockerfile](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/dockerfile)
 
 Este Dockerfile ainda faz referência a outros 3 arquivos:
 
