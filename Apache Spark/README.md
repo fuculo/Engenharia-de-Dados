@@ -47,6 +47,8 @@ Por fim, ainda temos a indicação ao arquivo entrypoint.sh, que por sua vez é 
 
    - [entrypoint.sh](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/entrypoint.sh)
 
+   - [Interface Docker Executada](https://private-user-images.githubusercontent.com/138727304/298300998-af281d1f-1220-468a-95e5-f5f8c37a6cf9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3NzgyMDUsIm5iZiI6MTcwNTc3NzkwNSwicGF0aCI6Ii8xMzg3MjczMDQvMjk4MzAwOTk4LWFmMjgxZDFmLTEyMjAtNDY4YS05NWU1LWY1ZjhjMzdhNmNmOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMFQxOTExNDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NDlkYzQ4ZDcxYTM4NjI3YmQzODUzMDgzZGIzMDFkMzU1Nzg4MDlmZGFhMzAxOTNkMGNlYTY3ZDU0YTZhNGJkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.KtnZfbbmZO0ae7GrrT1MZWWi1Eo_JhYZlosTbvu_b0w)
+
 ___
 O Apache Spark disnobiliza uma User Interface (UI) para acompanhar o desempenho do cluster, bem como aplicações que estão em andamento ou que já foram concluídas.
 
