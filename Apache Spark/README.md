@@ -17,9 +17,11 @@ O objetivo é demonstrar o funcionamento do fluxo de dados para uma aplicação 
 
 Os dados a serem processados estão armazenados localmente em meu computador. 
 
-Utilizando a orquestração de containers Docker, as aplicações do Spark foram encapsuladas em um ambiente isolado. Nesse contexto, um cluster Docker foi configurado, composto por 1 Driver, 3 Workers e 1 componente History, este último fundamental para monitorar os registros de execução do processo.
+Utilizando a orquestração de containers Docker, as aplicações do Spark foram encapsuladas em um ambiente isolado. Nesse contexto, um cluster Docker foi configurado através do docker-compose, composto por 1 Driver, 3 Workers e 1 componente History, este último fundamental para monitorar os registros de execução do processo.
 
-O seguinte dockerfile foi configurado para atender as demandas do projeto. Nele temos a instalção de um Sistema Operacional e seus pacotes, juntamente com variáveis de ambiente, arquivos binários do Spark, preparação do ambiente Python e ajuste de permissões e privilégios.
+- [docker-compose](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/docker-compose.yml)
+
+O seguinte dockerfile foi configurado para atender as demandas do projeto. Nele temos a configuração da imagem Docker com a instalção de um Sistema Operacional e seus pacotes, juntamente com variáveis de ambiente, arquivos binários do Spark, preparação do ambiente Python e ajuste de permissões e privilégios.
 
 - [dockerfile](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/dockerfile)
 
