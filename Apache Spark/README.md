@@ -21,7 +21,7 @@ Utilizando a orquestração de containers Docker, as aplicações do Spark foram
 
 O seguinte dockerfile foi configurado para atender as demandas do projeto. Nele temos a instalção de um Sistema Operacional e seus pacotes, juntamente com variáveis de ambiente, arquivos binários do Spark, preparação do ambiente Python e ajuste de permissões e privilégios.
 
-[dockerfile](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/dockerfile)
+- [dockerfile](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/dockerfile)
 
 Este Dockerfile ainda faz referência a outros 3 arquivos:
 
@@ -34,15 +34,17 @@ Este Dockerfile ainda faz referência a outros 3 arquivos:
 
 Ao ler o requirements.txt  que consiste em um arquivo de especificação de dependências em Python, listamos os pacotes e suas versões necessárias para executar o código do projeto.
 
-	- requeriments.txt
+
+ - [requeriments.txt](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/requirements.txt)
+
 
 Quando o Spark é iniciado, ele procura automaticamente por esse arquivo e aplica as configurações nele contidas. Essas configurações são úteis para personalizar o comportamento do Spark de acordo com os requisitos do projeto.
 
-	- spark-defaults.conf	
+  - [spark-defaults.conf](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/spark-defaults.conf)
 
 Por fim, ainda temos a indicação ao arquivo entrypoint.sh, que por sua vez é utilizado como ponto de entrada para iniciar diferentes componentes do Apache Spark.
 
-	- entrypoint.sh
+   - [entrypoint.sh](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/entrypoint.sh)
  
 ## Conclusão
 
