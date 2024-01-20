@@ -49,6 +49,8 @@ Por fim, ainda temos a indicação ao arquivo entrypoint.sh, que por sua vez é 
  
 ## Conclusão
 
+A conclusão bem-sucedida deste projeto reforça não apenas as habilidades técnicas do engenheiro de dados, mas também a capacidade de integrar múltiplos conhecimentos para alcançar soluções robustas em ambientes complexos de processamento de dados.
+
 ## Anexos e referências
 
 Os conhecimentos aplicados neste projetos tiveram a colaboração da Data Science Academy através do curso de Machine Learning e Inteligência Artificial em Ambientes Distribuídos e também à recente publicação da databricks com o eBook "The Data Engineers Guide to Apache Spark".
