@@ -46,6 +46,11 @@ Quando o Spark é iniciado, ele procura automaticamente por esse arquivo e aplic
 Por fim, ainda temos a indicação ao arquivo entrypoint.sh, que por sua vez é utilizado como ponto de entrada para iniciar diferentes componentes do Apache Spark.
 
    - [entrypoint.sh](https://github.com/fuculo/Engenharia-de-Dados/blob/main/Apache%20Spark/Arquivos%20do%20Projeto/entrypoint.sh)
+
+___
+O Apache Spark disnobiliza uma User Interface (UI) para acompanhar o desempenho do cluster, bem como aplicações que estão em andamento ou que já foram concluídas.
+
+ - [User Interface Sem Aplicação](https://private-user-images.githubusercontent.com/138727304/298301065-c96b6bc4-4100-45a0-8f5c-aaff6e4b4ac3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3Nzc3NDQsIm5iZiI6MTcwNTc3NzQ0NCwicGF0aCI6Ii8xMzg3MjczMDQvMjk4MzAxMDY1LWM5NmI2YmM0LTQxMDAtNDVhMC04ZjVjLWFhZmY2ZTRiNGFjMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMFQxOTA0MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZGZhOTZhMzUyZWJmNzZjZDYxN2E3N2ZkZjk1OWU0OGZmZDk2MjFlNzdlOGY0ZDA4MDk0ZDBjYmU0MjYzNmU0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7mB4QqA5Wa69Z7gZ-R6xtp_cq9bwce2Tp5LZqz67GGk)
  
 ## Conclusão
 
