@@ -10,4 +10,4 @@ Neste repositório estarei publicando projetos afim de compartilhar minhas exper
 
 
 _________________________________________________________________________________________________________________________________________________________________________________
-#### Eu estou no processo de me tornar um Engenheiro de Dados, caso haja algo incorreto ou se você tiver alguma consideração, como elogios ou críticas, por favor me avise!
+#### Eu estou na caminhada para me tornar um Engenheiro de Dados, caso haja algo incorreto ou se você tiver alguma consideração, como elogios ou críticas, por favor me avise!
