@@ -63,6 +63,7 @@ O Apache Spark disnobiliza uma User Interface (UI) para acompanhar o desempenho 
  
 ## Conclusão
 
+A realização deste projeto vai além do escopo atual. A intenção foi simular o ambiente Spark, mesmo com um volume de dados baixo. A escalabilidade do projeto é evidente, considerando a possibilidade de distribuir esses Containers Docker em diversos computadores, em vez de tê-los centralizados em uma única máquina. Isso destaca a flexibilidade e adaptabilidade da solução, preparando-a para ambientes com demandas variadas de processamento de dados.
 
 
 ## Anexos e referências
