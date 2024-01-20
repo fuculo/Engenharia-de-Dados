@@ -3,17 +3,17 @@
 Notebook: [NBA 22_23](https://tinyurl.com/bdz6mzv4)
 
 
-Este projeto consiste na construção de um fluxo de dados com Apache Spark através da orquestração de containers Docker e arquivos armazenados localmente.
+Este projeto consiste na construção de um fluxo de dados com Apache Spark através da orquestração de containers Docker e arquivos armazenados localmente. 
+
+
 
 ## Objetivo
 O objetivo é demonstrar o funcionamento do fluxo de dados para uma aplicação de Machine Learning.
 
-
-	- IMG_2 - workflow
+![image](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/eec6663e-061c-4f43-a95e-7d2477145fb8)
 
 
 ## Aplicação
-**Extração de Dados e Análise Exploratória de Dados com PYTHON**
 
 Os dados a serem processados estão armazenados localmente em meu computador. 
 
@@ -24,9 +24,13 @@ O seguinte dockerfile foi configurado para atender as demandas do projeto. Nele 
 	- dockerfile
 
 Este Dockerfile ainda faz referência a outros 3 arquivos:
-	1- requeriments.txt
-	2- spark-defaults.conf
-	3- entrypoint.sh 
+
+1- requeriments.txt
+ 
+2- spark-defaults.conf
+ 
+3- entrypoint.sh 
+ 
 
 Ao ler o requirements.txt  que consiste em um arquivo de especificação de dependências em Python, listamos os pacotes e suas versões necessárias para executar o código do projeto.
 
@@ -42,3 +46,6 @@ Por fim, ainda temos a indicação ao arquivo entrypoint.sh, que por sua vez é 
  
 ## Conclusão
 
+## Anexos e referências
+
+Os conhecimentos aplicados neste projetos tiveram a colaboração da Data Science Academy através do curso de Machine Learning e Inteligência Artificial em Ambientes Distribuídos e também à recente publicação da databricks com o eBook "The Data Engineers Guide to Apache Spark".
