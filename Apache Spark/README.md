@@ -63,7 +63,7 @@ O Apache Spark disnobiliza uma User Interface (UI) para acompanhar o desempenho 
  
 ## Conclusão
 
-A conclusão bem-sucedida deste projeto reforça não apenas as habilidades técnicas do engenheiro de dados, mas também a capacidade de integrar múltiplos conhecimentos para alcançar soluções robustas em ambientes complexos de processamento de dados.
+
 
 ## Anexos e referências
 
