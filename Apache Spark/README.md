@@ -1,6 +1,5 @@
 # PROJETO APACHE SPARK
 
-Notebook: [NBA 22_23](https://tinyurl.com/bdz6mzv4)
 
 
 Este projeto consiste na construção de um fluxo de dados com Apache Spark através da orquestração de containers Docker e arquivos armazenados localmente. 
