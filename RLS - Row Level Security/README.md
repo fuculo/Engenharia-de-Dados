@@ -104,6 +104,6 @@ ___
 ## Conclusão:
 O dataset apresentado contém poucos registros, porém, isso não se torna impeditivo para escalar a mesma solução para um grande conjunto de dados. 
 
-A aplicação de RLS as organizações permite controlar com precisão quem pode ver quais dados, garantindo conformidade com regulamentos de privacidade e protegendo informações confidenciais contra acesso não autorizado.
+A aplicação de RLS às organizações permite controlar com precisão quem pode ver quais dados, garantindo conformidade com regulamentos de privacidade e protegendo informações confidenciais contra acesso não autorizado.
 
 Essa funcionalidade é fundamental para criar relatórios e painéis confiáveis que oferecem insights relevantes sem comprometer a segurança dos dados.
