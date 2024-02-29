@@ -1,9 +1,9 @@
 
-# RLS (segurança em nível de linha) com o Power BI
+# RLS (Segurança em Nível de Linha) com o Power BI
 
 O que significa Row Level Security?
 
-Também conhecido como RLS, abreviação do termo em inglês, a Row Level Security (segurança em nível de linha) no Power BI, em resumo é uma opção de segurança para quando se deseja restringir o acesso a visualização de dados, definindo filtros por determinados usuários.
+Também conhecido como RLS, abreviação do termo em inglês, a Row Level Security (Segurança em Nível de Linha) no Power BI, em resumo é uma opção de segurança para quando se deseja restringir o acesso a visualização de dados, definindo filtros por determinados usuários.
 
 Os filtros restringem o acesso a dados no nível de linha. A definição dos filtros é feito através de funções DAX.
 
@@ -39,7 +39,7 @@ ___
 
 * Para o filtro de linha ter coerência e funcionar, a hierarquia deve estar presente na tabela fato.
 ![Print 5 - Tabela Fato](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/10b1a1df-c7ae-4299-be4e-792d6d1767f4)
-
+___
 
 ## Etapas de Aplicação: 
 #### OBSERVAÇÃO: Todos os dados apresentados são fictícios com a única finalidade de instrução e prática.
@@ -71,6 +71,8 @@ SELECTCOLUMNS(
 * **SELECTCOLUMNS(FILTER(...), "id_diretor", 'Direção'[id_diretor])**: Depois que a filtragem é aplicada, a função SELECTCOLUMNS é usada para selecionar a coluna 'id_diretor' da tabela filtrada. Isso resulta em uma tabela com apenas uma coluna chamada "id_diretor", contendo os IDs dos diretores que correspondem ao usuário atual.
 
 * **'Cirurgias'[id_diretor] IN ...**: Verifica se o ID do diretor associado ao usuário atual está presente na coluna 'id_diretor' da tabela 'Cirurgias' e esta expressão está filtrando as cirurgias para mostrar apenas aquelas associadas ao diretor que corresponde ao usuário atual.
+  
+* Em resumo, a expressão DAX está filtrando as cirurgias com base no diretor que corresponde ao usuário atualmente autenticado, garantindo que apenas as cirurgias relacionadas a esse diretor sejam exibidas.
 
 * O mesmo foi replicado para os demais níveis hierarquicos, gestores e médicos, sendo alterado somente os parâmetros de tabelas e colunas.
 
@@ -85,7 +87,7 @@ Ao publicar dois arquivos são exibidos, relatório e modelo semântico. Clique 
 ![Print 10 - Designando Acessos](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/a8dffa87-805a-4e0b-bc50-4cf078fc2d47)
 
 * Por fim, o relatório deverá ser compartilhado com os usuários ou com o grupo de usuários para os mesmos terem acesso, pois só configurar a Segurança em Nível de Linha não é o suficiente para visualizar o painel. 
-
+___
 
 ## Analisando os Resultados:
 1- Visão do Diretor: Consegue visualizar tudo a respeito dos seu gestores e dos seus médicos.
@@ -97,9 +99,11 @@ Ao publicar dois arquivos são exibidos, relatório e modelo semântico. Clique 
 3- Visão do Médico: Consegue visualizar tudo a respeito de sí próprio, mas não dos demais médicos 
 ![Print 8 - Visão do Médico](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/2b4d11c3-6ca2-4de8-8eba-c38ede37cd69)
 
+___
 
+## Conclusão:
+O dataset apresentado contém poucos registros, porém, isso não se torna impeditivo para escalar a mesma solução para um grande conjunto de dados. 
 
+A aplicação de RLS as organizações permite controlar com precisão quem pode ver quais dados, garantindo conformidade com regulamentos de privacidade e protegendo informações confidenciais contra acesso não autorizado.
 
-
-_________________________________________________________________________________________________________________________________________________________________________________
-
+Essa funcionalidade é fundamental para criar relatórios e painéis confiáveis que oferecem insights relevantes sem comprometer a segurança dos dados.
