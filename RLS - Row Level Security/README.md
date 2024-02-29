@@ -42,7 +42,7 @@ ___
 
 
 ## Etapas de Aplicação: 
-#### OBSERVAÇÃO: Todos os dados apresentados são fictícios com a única finalidade de instrução.
+#### OBSERVAÇÃO: Todos os dados apresentados são fictícios com a única finalidade de instrução e prática.
 ## Etapa 1:
 1. Na guia Modelagem, selecione Gerenciar funções.
    ![Print 1 - Modelagem -_ Gerenciar Funções](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/ac801e52-1ce7-4161-88f9-3b53b3f04c06)
@@ -72,11 +72,11 @@ SELECTCOLUMNS(
 
 * **'Cirurgias'[id_diretor] IN ...**: Verifica se o ID do diretor associado ao usuário atual está presente na coluna 'id_diretor' da tabela 'Cirurgias' e esta expressão está filtrando as cirurgias para mostrar apenas aquelas associadas ao diretor que corresponde ao usuário atual.
 
-* O mesmo foi replicado para os demais níveis hierarquicos, gestores e médicos.
+* O mesmo foi replicado para os demais níveis hierarquicos, gestores e médicos, sendo alterado somente os parâmetros de tabelas e colunas.
 
 ## Etapa 2:
 Após a etapa 1 estar devidamente configurada o dashboard deverá ser publicado em um Workspace do Power BI.
-Ao publicar dois arquivos são exibidos, relatório e modelo semântico. Clique nos 3 pontos (...) do *Modelo Semântico* e selecione *SEGURANÇA*
+Ao publicar dois arquivos são exibidos, relatório e modelo semântico. Clique nos 3 pontos (...) do *MODELO SEMÂNTICO* e selecione *SEGURANÇA*
 
 * Como pode ser observado, as regras foram criadas e o que resta é designar os acessos de acordo com cada uma destas regras.  
 ![Print 9 - Designando Acessos](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/3a012cff-8dc3-45e2-b0ba-241a71b7dbaa)
@@ -102,4 +102,4 @@ Ao publicar dois arquivos são exibidos, relatório e modelo semântico. Clique 
 
 
 _________________________________________________________________________________________________________________________________________________________________________________
-#### Eu estou na caminhada para me tornar um Engenheiro de Dados, caso haja algo incorreto ou se você tiver alguma consideração, como elogios ou críticas, por favor me avise!
+
