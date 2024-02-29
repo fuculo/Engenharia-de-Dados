@@ -41,11 +41,11 @@ ___
 2. Na janela Gerenciar funções, selecione Criar e forneça um nome para a função.
    ![Print 2 - Gerenciar Funções -_ Criar](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/44a18329-4519-4e63-bece-c7eae623f244)
 
-3. Em tabelas, selecione a tabela à qual irá aplicar as regras de filtros.
+3. Em tabelas, selecione a tabela à qual irá aplicar as regras de filtros. O filtro deve ser aplicado na tabela fato.
    ![Print 3 - Criar -_ Funções RLS](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/4c0e9124-817c-495f-bc90-5b572daf0ce3)
 
 
-```dax
+``` dax
 'Cirurgias'[id_diretor] IN 
 SELECTCOLUMNS(
     FILTER(
@@ -56,11 +56,20 @@ SELECTCOLUMNS(
 )
 ```
 
+### Vamos analisar o código de dentro para fora:
+* **FILTER('Direção', 'Direção'[email] = USERPRINCIPALNAME())**: Esta parte da expressão filtra a tabela 'Direção' para encontrar a linha onde o email ('email') é igual ao usuário atualmente autenticado (USERPRINCIPALNAME()). O filtro está sendo aplicado para encontrar o diretor que corresponde ao usuário atual.
+
+* **SELECTCOLUMNS(FILTER(...), "id_diretor", 'Direção'[id_diretor])**: Depois que a filtragem é aplicada, a função SELECTCOLUMNS é usada para selecionar a coluna 'id_diretor' da tabela filtrada. Isso resulta em uma tabela com apenas uma coluna chamada "id_diretor", contendo os IDs dos diretores que correspondem ao usuário atual.
+
+* **'Cirurgias'[id_diretor] IN ...**: Verifica se o ID do diretor associado ao usuário atual está presente na coluna 'id_diretor' da tabela 'Cirurgias' e esta expressão está filtrando as cirurgias para mostrar apenas aquelas associadas ao diretor que corresponde ao usuário atual.
+
+
+
 
 
 ### Apache Spark
 
-[Acesse aqui](https://github.com/fuculo/Engenharia-de-Dados/tree/main/Apache%20Spark)
+
 
 _________________________________________________________________________________________________________________________________________________________________________________
 #### Eu estou na caminhada para me tornar um Engenheiro de Dados, caso haja algo incorreto ou se você tiver alguma consideração, como elogios ou críticas, por favor me avise!
