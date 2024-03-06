@@ -2,8 +2,7 @@
 
 ### Índice:
 
-1 - [Importação e conexão ao Power BI Service](https://github.com/fuculo/Engenharia-de-Dados/blob/main/HOW.ai/Documenta%C3%A7%C3%A3o%20Dashboard.md#L20)
-;
+1 - Importação e conexão ao Power BI Service;
 
 2 - Dados utilizados
   *	Modelagem de Dados
