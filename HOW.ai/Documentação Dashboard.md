@@ -4,7 +4,7 @@
 
 1 - Importação e conexão ao Power BI Service;
 
-2 - Dados utilizados
+2 - Dados
   *	Modelagem de Dados
   
       1 - Modelagem Relacional ();
@@ -18,7 +18,7 @@ ___
 
 # 1 - Importação e Conexão
 
-A partir de uma visão geral, vamos visualizar como ficará o fluxo ao final da construção.
+A partir de uma visão geral, observemos como ficará o fluxo ao final da construção.
 
 Fluxo de Dados Completo
 ![Fluxo de Dados Completo](https://github.com/fuculo/Engenharia-de-Dados/assets/138727304/e86abfb7-19fa-4456-91c4-387f8aa58307)
@@ -39,6 +39,8 @@ Parâmetros:
 * Gateway de dados: Conexão local
 * Tipo de autenticação: Anônimo
 * Nível de privacidade: Organizacional
+
+  # 2 - Dados
 
 
 1 - Utilizando o Power BI Service(Online) foi criado um Fluxo de Dados com base no acesso disponibilizado ao banco de dados do Elastic Search da HOW.ai.
